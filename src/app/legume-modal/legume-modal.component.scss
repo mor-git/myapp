@@ -1,0 +1,30 @@
+ion-header{
+    --ion-background-color:rgb(52, 201, 36);
+}
+ion-title{
+   font-family: cursive;
+   text-align: center;
+   color: white;
+}
+ion-content{
+    --background: url('../../assets/img/legums.jpg') no-repeat 50% 55%;
+    --background-color: transparent;
+    text-align: center;
+}
+ion-grid{
+    margin: 8%;
+    background-color:rgb(237, 237, 237);
+    opacity: 0.5;
+    border: 2px solid rgb(52, 201, 36);
+    border-radius: 10%;
+    box-shadow: 7px 5px 6px rgb(52, 201, 36);
+}
+ion-input{
+    background-color:white;
+    border-radius: 10%;
+    padding: 10%;
+}
+ion-label{
+    font-size: 20px;
+    font: bold;
+}

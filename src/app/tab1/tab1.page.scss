@@ -1,0 +1,43 @@
+ion-input{
+    background-color:white;
+    border-radius: 10%;
+    // padding: 10%;
+}
+ion-content{
+    --background: url('../../assets/img/legums.jpg') no-repeat 50% 55%;
+    --background-color: transparent;
+    
+    text-align: center;
+    color: white;
+    
+}
+ion-header{
+     --ion-background-color:rgb(52, 201, 36);
+}
+ion-title{
+    font-family: cursive;
+    text-align: center;
+    color: white;
+}
+ion-Button{
+    font-family: cursive;
+}
+h2,p{
+    font-family: cursive;
+    color: black;
+}
+
+.legumesGrid{
+    background-color: rgb(52, 201, 36);
+    margin: 6%;
+    opacity: 0.8;
+
+}
+.commandesGrid{
+    background-color: rgb(52, 201, 36);
+    margin: 6%;
+    font-family: cursive;
+    opacity: 0.8;
+
+}
+

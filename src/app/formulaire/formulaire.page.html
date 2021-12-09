@@ -1,0 +1,69 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-back-button></ion-back-button>
+    </ion-buttons>
+    <ion-title>Sén Marchè</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-grid class="grid1">
+    <ion-row>
+      <ion-col>
+         <p>Gagnez en Temps et en Argent avec Sen Marchè !!</p>
+         <!-- <p>Vous n'avez plus besoin de vous deplacer !!</p>
+         <p>Faite votre commande et on s'occupe du reste !!</p>  -->
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+  <ion-grid class="grid2">
+    <ion-row>
+      <ion-col class="legume"  [routerLink]="['/tabs/tab1']">
+        <ion-img class="imgg"  src="../../assets/img/legums.jpg"></ion-img>  
+      </ion-col>
+      <ion-col class="col1"  [routerLink]="['/tabs/tab2']">
+        <ion-img class="imgg"  src="../../assets/img/poulet.jpg"></ion-img>  
+      </ion-col>
+      
+    </ion-row>
+    <ion-row>
+      <ion-col class="viande"  [routerLink]="['/tabs/tab3']">
+        <ion-img class="imgg"  src="../../assets/img/viande.jpg"></ion-img>  
+     </ion-col>
+      <ion-col class="col1">
+        <ion-img class="imgg"  src="../../assets/img/fruitMer.jpg"></ion-img>  
+        
+     </ion-col>
+    </ion-row>
+    <!-- <ion-row>
+      <ion-col class="fruitMer">
+        <ion-img class="imgg"  src="../../assets/img/aliment.jpg"></ion-img>   
+     </ion-col>
+      <ion-col class="col1">
+        <ion-img class="imgg"  src="../../assets/img/seche.jpg"></ion-img>   
+     </ion-col>
+    </ion-row> -->
+  </ion-grid>
+  <!-- <ion-grid>
+      <form [formGroup]="monFormGroup">
+
+        <ion-item>
+            <ion-label position="floating">PRENOM</ion-label>
+            <ion-input formControlName="prenom" type="text"></ion-input>
+        </ion-item>
+        <br>
+        <ion-item>
+            <ion-label position="floating">NOM</ion-label>
+            <ion-input formControlName="nom" type="text"></ion-input>
+        </ion-item>
+        <br>
+        <ion-item>
+            <ion-label position="floating">Age</ion-label>
+            <ion-input formControlName="age" type="number"></ion-input>
+        </ion-item>
+        <br>
+        <ion-button expand="full" color="primary" (click)="recupe()">Valider</ion-button>
+      </form>
+  </ion-grid> -->
+</ion-content>

@@ -1,0 +1,46 @@
+.grid1{
+    margin : 9%;
+    background-color: rgb(254, 254, 254);
+    opacity: 0.8;
+    border-radius: 10%;
+    border: 2px solid rgb(52, 201, 36);
+    // box-shadow: 7px 6px black;
+    box-shadow: 7px 6px 12px grey;
+}
+p{
+    color: rgb(52, 201, 36);
+    box-shadow:   black;
+    text-shadow:1px 1px black;
+}
+.grid2{
+    margin-top: 2%;
+    margin-left: 5%;
+    margin-right: 5%;
+    background-color: hsla(0, 0%, 100%, 0.952);
+    border-radius: 10%;
+}
+
+ion-title{
+    font-family: cursive;
+    color: white;
+    text-align: center;
+    
+}
+ion-row{
+    padding: 3%;
+}
+p{
+    font-family: cursive;
+    text-align: center;
+}
+.col1{
+    padding-left: 5%;
+}
+ion-header{
+    --ion-background-color : rgb(52, 201, 36);
+}
+ion-img{
+    
+    border-radius: 25%;
+}
+

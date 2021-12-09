@@ -1,0 +1,40 @@
+ion-content{
+    --background: url('../../assets/img/poulet.jpg') no-repeat 50% 55%;
+    --background-color: transparent;
+    // opacity: 0.5;
+    text-align: center;
+    color: white;
+    
+}
+// ion-grid{
+//     margin-top: 10%;
+//     margin-left: 20%;
+//     margin-right: 20%;
+//     // background-color : #E6E6E6;
+//     border-radius: 15px;
+// }
+ion-col{
+    border-radius: 15px;
+    width: 100%;
+    
+}
+ion-title{
+    font-family: cursive;
+    text-align: center;
+    color: white;
+}
+ion-header{
+    --ion-background-color: rgb(253, 233, 224);
+}
+.col1{
+    border-radius: 100px;
+    background-color: gold;
+}
+.div1{
+    border-radius: 100px;
+    background-color:red;
+}
+.img1{
+    border-radius: 100px;
+    background-color:white;
+}
